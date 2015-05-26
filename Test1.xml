@@ -11,7 +11,7 @@
           <block type="movement_stop" id="136">
             <next>
               <block type="oled_drawtext" id="125">
-                <field name="TEXT">hello</field>
+                <field name="TEXT">:)</field>
               </block>
             </next>
           </block>

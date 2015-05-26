@@ -8,22 +8,8 @@
           </block>
         </value>
         <next>
-          <block type="oled_drawnumber" id="102" inline="true">
-            <value name="NUMBER">
-              <block type="math_arithmetic" id="87" inline="true">
-                <field name="OP">MULTIPLY</field>
-                <value name="A">
-                  <block type="math_number" id="109">
-                    <field name="NUM">3</field>
-                  </block>
-                </value>
-                <value name="B">
-                  <block type="math_number" id="116">
-                    <field name="NUM">235</field>
-                  </block>
-                </value>
-              </block>
-            </value>
+          <block type="oled_drawtext" id="125">
+            <field name="TEXT">hello</field>
           </block>
         </next>
       </block>
